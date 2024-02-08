@@ -40,28 +40,27 @@ body{
 }
 .navbar-nav li {
     flex-grow: 1;
-    text-align: center; /* Center the text */
+    text-align: center; 
 }
 /* Hero Section Styles */
 
 .hero-section {
     position: relative;
-    height:100vh; /* This will make the section occupy the top quarter of the viewport */
-    overflow:visible;/* This ensures the image doesn't overflow */
-
+    height:100vh; 
+    overflow:visible;
 }
 .hero-section .container {
     position: absolute;
-    top: 50%; /* Vertically center the text */
-    left: 50%; /* Horizontally center the text */
-    transform: translate(-50%, -50%); /* Center the text */
-    z-index: 1; /* Ensure text is on top of the image */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
     text-align: center;
 }
 .hero-image img {
     width: 100%;
     height: 100%;
-    object-fit:cover; /* Ensure the image covers the entire container */
+    object-fit:cover; 
 }
  .hero-image {
     position: absolute;
@@ -69,7 +68,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 0; /* Ensure the image is behind the text */
+    z-index: 0; 
 }
 .cascade-text {
     display: flex;
@@ -81,7 +80,7 @@ body{
     color: bisque;
     font-weight: bolder;
     font-size: 100px;
-    line-height: 1.5; /* Adjust line height to separate list items */
+    line-height: 1.5; 
 }
 /* About Section Styles */
 
@@ -89,12 +88,12 @@ body{
     padding: 50px 20px;
     position: relative;
     text-align: center;
-    color: #333; /* Adjust color as per your design */
-    border: 0px solid red; /* Border style */
-    border-radius: 0px; /* Rounded corners */
-    max-width: 800px; /* Adjust the maximum width */
-    margin: 0 auto; /* Center the section horizontally */
-    box-sizing: border-box; /* Include padding and border in the width */
+    color: #333; 
+    border: 0px solid red; 
+    border-radius: 0px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    box-sizing: border-box; 
 }
    
 
@@ -103,7 +102,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Ensures the content occupies full height */
+    height: 100%; 
 }
 
 .section-heading {
@@ -124,20 +123,20 @@ body{
 .opening-time-left,
 .contact-right {
     position: absolute;
-    background-color: rgba(167, 167, 167, 0.8); /* Semi-transparent white background */
+    background-color: rgba(167, 167, 167, 0.8); 
     padding: 0px;
     border-radius: 10px;
     color: #000;
 }
 
 .opening-time-left {
-    bottom: 20px; /* Adjust as needed */
-    left: 20px; /* Adjust as needed */
+    bottom: 20px; 
+    left: 20px; 
 }
 
 .contact-right {
-    bottom: 20px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
+    bottom: 20px; 
+    right: 20px; 
 }
 .coffee{
     max-height:fit-content;
