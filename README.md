@@ -1,4 +1,4 @@
-# Cafe Website Web Development Homework
+# Cafe Website 
  The assignment was to create a Cafe Website using HTML and CSS
 
  # Task
